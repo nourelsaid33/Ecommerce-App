@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.active{
+    /* @apply before:w-0 before:h-0.5 before:bg-emerald-500 before:bottom-0 before:start-0 before:absolute hover:before:w-full before:transition-[width] before:duration-300 ; */
+    @apply hover:text-black  ;
+}
