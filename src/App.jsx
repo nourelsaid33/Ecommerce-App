@@ -47,7 +47,7 @@ let route=createBrowserRouter([
        {path:"/verifycode", element:<VerifyCode/>} ,
        {path:'productdetails/:id',element:<ProtectRoute><Productsdetail/></ProtectRoute>},
        {path:'product' , element:<ProtectRoute><RecentProducts></RecentProducts></ProtectRoute>},
-      //  {path:'*' , element:<NotFound/>},
+        {path:'*' , element:<NotFound/>},
   ]}
  
 ])
